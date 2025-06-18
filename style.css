@@ -8,7 +8,7 @@ body{
     font-family: system-ui;
 }
 .cruds{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .head{
@@ -75,5 +75,12 @@ table th{
     text-transform: uppercase;
 }
 th,td{
-    padding: 5px;
+    padding:8px 5px;
+     white-space: nowrap; 
+}
+@media (max-width: 600px) {
+  th, td {
+    padding: 6px 3px;
+    font-size: 14px;
+  }
 }
